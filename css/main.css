@@ -133,6 +133,28 @@ footer{
   padding: 20px;
   border-bottom: 2px solid red;
   background-color: white;
+  position: relative;
+}
+.big-grid .box::before{
+  content: "";
+  position: absolute;
+  background-color: blue;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  bottom: 0;
+  left: 0;
+}
+
+.big-grid .box::after{
+  content: "";
+  position: absolute;
+  background-color: blue;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  right: 0;
+  bottom: 0;
 }
 .big-grid .box h5{
   text-transform: capitalize;
@@ -150,7 +172,9 @@ footer{
   padding: 0 0 20px;
 }
 .big-grid .box p:last-child{
-  padding-bottom: 15px;
+  padding-top: 15px;
+  line-height: 1.7;
+
 }
 .big-grid .box-1{
   grid-column: span 2;
