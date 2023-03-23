@@ -178,3 +178,54 @@ footer{
   background-color: black;
   color: white;
 }
+.flex{
+  background-color: #eeeeee;
+  overflow: hidden;
+}
+.flex .full-width{
+  margin: 15px;
+  background-color: #ddd;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+}
+.flex .section-2{
+  display: flex;
+  gap: 15px;
+  margin: 0 15px;
+}
+.flex .section-2 div{
+  width: calc(100%/3);
+  background-color: #ddd;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+}
+.flex .section-3{
+  display: flex;
+  gap: 15px;
+  margin:15px;
+}
+.flex .section-3 div{
+  width: calc(100%/2);
+  background-color: #ddd;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+}
+.flex .section-4{
+  display: flex;
+  gap: 15px;
+  margin:15px;
+}
+.flex .section-4 div{
+  width: calc(100%/4);
+  background-color: #ddd;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+}
