@@ -135,27 +135,6 @@ footer{
   background-color: white;
   position: relative;
 }
-.big-grid .box::before{
-  content: "";
-  position: absolute;
-  background-color: blue;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  bottom: 0;
-  left: 0;
-}
-
-.big-grid .box::after{
-  content: "";
-  position: absolute;
-  background-color: blue;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  right: 0;
-  bottom: 0;
-}
 .big-grid .box h5{
   text-transform: capitalize;
   font-size: 18px;
