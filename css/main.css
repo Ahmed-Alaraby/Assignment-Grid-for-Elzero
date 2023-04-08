@@ -193,7 +193,7 @@ footer{
 .flex .section-2{
   display: flex;
   gap: 15px;
-  margin: 0 15px;
+  margin:15px;
 }
 .flex .section-2 div{
   width: calc(100%/3);
@@ -228,4 +228,58 @@ footer{
   font-size: 20px;
   font-weight: bold;
   padding: 15px;
+}
+/* grid-5 */
+.grid-5{
+  background-color: #eeeeee;
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+}
+.grid-5 .full-width{
+  background-color: #dddddd;
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.grid-5 .section-2{
+  display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    gap: 15px;
+    margin: 0px 15px 15px;
+}
+.grid-5 .section-2 div{
+  background-color: #dddddd;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.grid-5 .section-3{
+  display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    gap: 15px;
+    margin: 0 15px 15px;
+}
+.grid-5 .section-3 div{
+  background-color: #dddddd;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.grid-5 .section-4{
+  display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    gap: 15px;
+    margin: 0 15px 15px;
+}
+.grid-5 .section-4 div{
+  background-color: #dddddd;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
 }
